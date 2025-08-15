@@ -18,6 +18,8 @@ These features can be added directly to main ragas without conflicts.
   3. Add backend exports to main `__init__.py`
   4. Write integration tests
   5. Update documentation
+  6. Remove experimental/backends/ directory
+  7. Update examples/ to use new backend imports (if any)
 - **Test Migration**:
   - **From**: `tests/experimental/unit/backends/`
     - `test_inmemory.py` (975 lines, 28 tests)
@@ -41,6 +43,7 @@ These features can be added directly to main ragas without conflicts.
   3. Add exports to main `__init__.py`
   4. Add gitpython dependency
   5. Write tests and documentation
+  6. Remove experimental/experiment.py
 - **Test Migration**:
   - **From**: No existing tests found - needs new tests
   - **To**: `tests/unit/test_experiment.py`
@@ -61,6 +64,7 @@ These features can be added directly to main ragas without conflicts.
   2. Update imports
   3. Add to main exports
   4. Write comprehensive tests
+  5. Remove experimental/simulation.py 
 - **Test Migration**:
   - **From**: No existing tests found - needs new tests
   - **To**: `tests/unit/test_simulation.py`
