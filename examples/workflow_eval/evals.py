@@ -1,9 +1,10 @@
 import os
 from openai import OpenAI
-from ragas.experimental import Dataset, experiment
+from ragas.experimental import Dataset
+from ragas import experiment
 from ragas.experimental.metrics import DiscreteMetric
 from ragas.experimental.llms import llm_factory
-from .workflow import default_workflow_client
+from workflow import default_workflow_client
 
 
 workflow_client = default_workflow_client()
