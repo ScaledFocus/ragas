@@ -52,6 +52,8 @@ Enhanced features requiring careful integration. 4 PRs currently active:
 ### Cycle 3: Complex Integrations
 Remaining features requiring coordination with Cycle 2 completions:
 
+**Pending:**
+Feature | Dependencies | Action Required |
 |---------|-------------|-----------------|
 | Enhanced Metrics | None | Create migration plan |
 | Dataset Integration | Backends (done), Enhanced Metrics | Design backend integration |
