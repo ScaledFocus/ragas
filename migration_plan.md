@@ -42,22 +42,19 @@ Enhanced features requiring careful integration. 4 PRs currently active:
 - [#2191](https://github.com/explodinggradients/ragas/pull/2191) - LLM structure refactor + InstructorLLM
 - [#2184](https://github.com/explodinggradients/ragas/pull/2184) - Embeddings with dual API support
 
+**Pending:**
+| Feature | Dependencies | Action Required |
+|---------|-------------|-----------------|
+| Utils & Exceptions | None | Merge with main utilities |
+| Dynamic Prompts | Prompts migration (#2197) | Coordinate integration |
+| Dynamic Prompts | Prompts migration (#2197) | Coordinate integration |
+
 ### Cycle 3: Complex Integrations
 Remaining features requiring coordination with Cycle 2 completions:
 
-| Feature | Dependencies | Action Required |
 |---------|-------------|-----------------|
 | Enhanced Metrics | None | Create migration plan |
 | Dataset Integration | Backends (done), Enhanced Metrics | Design backend integration |
-| Dynamic Prompts | Prompts migration (#2197) | Coordinate integration |
-| Utils & Exceptions | None | Merge with main utilities |
-
-## Immediate Actions (Next 2 Weeks)
-
-1. **Review and merge ready PRs**: #2188, #2197
-2. **Complete active refactors**: #2191, #2184  
-3. **Clean up simulation remnants**: Remove simulation code from experimental
-4. **Plan Cycle 3**: Define approach for remaining features
 
 ## Test Migration Status
 
